@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (min-width : 320px) and (max-width: 600px){
+    .container {
+        width: 100%;
+        height: 720px;
+        
+    }
+
+    .scores {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .choices {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        
+
+
+    }
+
+    .coliseum {
+        width: 100%;
+        margin-top: 200px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .win {
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+
+    .match {
+        width: 80px;
+        height: 80px;
+        background-size: cover;
+        background-position: top center;
+        background-image: url('./img/paper.png');
+    }
+    .choice {
+        
+        /* display: inline-block; */
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 10px 30px;
+        margin-bottom: 10px;
+        width: 200px;
+        background-color: transparent;
+        color: #8C7873;
+        border: 2px solid #8C7873;
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+    }
+
+
+}
